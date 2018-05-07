@@ -1,0 +1,71 @@
+#+LaTeX_CLASS: proyectoelectrico
+#+OPTIONS: toc:nil
+#+LATEX_HEADER: \input{config/paquetes.tex}
+#+LATEX_HEADER: \titulo{Trying not to use LaTeX}
+#+LATEX_HEADER: \autor{Daniel García Vaglio}
+#+LATEX_HEADER: \carne{B00000}
+#+LATEX_HEADER: \guia{Dr. rer. nat Guia}
+#+LATEX_HEADER: \lectorA{Lector, Dr Ing}
+#+LATEX_HEADER: \lectorB{Lector, PhD}
+#+LATEX_HEADER: \mes{7}
+#+LATEX_HEADER: \ano{2018}
+
+#+BEGIN_LaTeX
+\frontmatter
+\portada
+\aprobacion
+
+\input{content/resumen.tex}
+\input{content/abstract.tex}
+
+\input{content/dedicatoria.tex}
+\input{content/agradecimientos.tex}
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\input{content/nomenclatura.tex}
+
+\mainmatter
+#+END_LaTeX
+
+* Introducción
+
+Esto es un texto introductorio. Se debe escribir bien porque la gente decide si le interesa o no el
+proyecto con esta parte.
+
+
+** Objetivos
+*** Objetivo General
+
+Quiero dejar de utilizar LaTeX para hacer mi proyecto eléctrico y usar algo más cómodo y moderno
+
+*** Objetivos específicos
+   - Org es mejor que latex
+   - Latex no es mejor que org
+
+** Metodología
+ Buscar información sobre org y latex para poder resolver este asunto.
+
+* Marco Teórico
+ Esto no tiene mucha teoría que digamos, solo voy a dejar unas citas de lo que he usado. La plantila
+ está disponible en la página del curso, si no tiene acceso no se preocupe, aquí está todo lo
+ necesario. Esto sirve en Emacs, esta es la wiki cite:emacs_wiki. La documentación de ORGmode está
+ aquí cite:org_wiki. Para las citas uso ORG-ref, muy útil, pueden encontrarlo aquí cite:org_ref
+
+* Desarrollo
+* Resultados
+** Trabajo futuro
+
+#+BEGIN_LaTeX
+\appendix
+#+END_LaTeX
+* Apéndice
+ Esto es una apéndice duh
+
+
+
+bibliographystyle:plain 
+bibliography:biblografia.bib
+
