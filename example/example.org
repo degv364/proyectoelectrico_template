@@ -10,7 +10,7 @@
 #+LATEX_HEADER: \mes{7}
 #+LATEX_HEADER: \ano{2018}
 
-#+BEGIN_LaTeX
+#+BEGIN_EXPORT latex
 \frontmatter
 \portada
 \aprobacion
@@ -28,7 +28,7 @@
 \input{content/nomenclatura.tex}
 
 \mainmatter
-#+END_LaTeX
+#+END_EXPORT
 
 * Introducción
 
@@ -58,9 +58,9 @@ Quiero dejar de utilizar LaTeX para hacer mi proyecto eléctrico y usar algo má
 * Resultados
 ** Trabajo futuro
 
-#+BEGIN_LaTeX
+#+BEGIN_EXPORT latex
 \appendix
-#+END_LaTeX
+#+END_EXPORT
 * Apéndice
  Esto es una apéndice duh
 
