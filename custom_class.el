@@ -25,3 +25,6 @@
                ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
                ("\\paragraph{%s}" . "\\paragraph*{%s}")
                ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
+
+;; Tell Org-mode to use latexmk
+(setq org-latex-pdf-process (list "latexmk -pdf -bibtex %f"))
